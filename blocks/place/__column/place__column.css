@@ -1,0 +1,4 @@
+.place__column:nth-child(odd) {
+    margin-right: 40px;
+}
+
