@@ -13,7 +13,6 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 20px;
-    aspect-ratio: 8/5;
 }
 
 .cover__background::before {
