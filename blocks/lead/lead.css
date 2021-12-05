@@ -6,7 +6,6 @@
     box-sizing: border-box;
     width: calc(100% - 296px);
     margin: 56px auto 92px;
-    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1152px) {

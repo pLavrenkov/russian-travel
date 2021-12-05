@@ -1,5 +1,5 @@
 .intro {
-    max-width: calc(100%-148px);
+    max-width: calc(100% - 148px);
     margin: 92px 0 0 148px;
     box-sizing: content-box;
 }
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 720px) {
     .intro {
-        width: culc(100%-16px);
+        width: culc(100% - 16px);
         margin: 64px 16px 64px;
     }
 }

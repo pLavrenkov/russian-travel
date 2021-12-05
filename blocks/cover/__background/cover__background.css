@@ -6,7 +6,6 @@
     background-position: center;
     position: relative;
     width: calc(100% - 96px);
-    min-height: 720px;
     display: flex;
     flex-direction: column;
     justify-content: center;
