@@ -1,19 +1,25 @@
 .header {
-    width: calc(100% - 96px);
-    box-sizing: border-box;
-    background-color: #2A2C2F;
-    height: 52px;
-    margin: 0 48px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
+  width: calc(100% - 96px);
+  box-sizing: border-box;
+  background-color: #2A2C2F;
+  height: 52px;
+  margin: 0 48px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-@media screen and (max-width: 720px) {
-    .header {
-        width: calc(100% - 32px);
-        height: 42px;
-        margin: 0 16px 0;
-    }
+@media screen and (max-width: 1279px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: calc(100% - 32px);
+    height: 42px;
+    margin: 0 16px 0;
+  }
 }
