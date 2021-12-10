@@ -1,6 +1,5 @@
 .header__lang-links {
   display: flex;
-  flex-direction: row;
   color: #fff;
   list-style-type: none;
   padding: 0;

@@ -1,18 +1,11 @@
 .intro__text {
   max-width: 720px;
   min-height: 208px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 163%;
   color: white;
   box-sizing: border-box;
   margin: 40px 0 33px;
   display: block;
-}
-
-@media screen and (max-width: 767px) {
-  .intro__text {
-    max-width: 288px;
-    font-size: 16px;
-    line-height: 163%;
-  }
 }

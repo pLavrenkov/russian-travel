@@ -4,7 +4,6 @@
   grid-template-rows: repeat(2, min-content);
   grid-gap: 48px 40px;
   grid-auto-rows: 0;
-  overflow-y: hidden;
   box-sizing: border-box;
 }
 

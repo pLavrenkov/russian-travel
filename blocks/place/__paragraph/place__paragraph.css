@@ -6,15 +6,17 @@
   line-height: 163%;
   color: white;
   box-sizing: border-box;
+  margin-bottom: 26px;
 }
 
-.place__paragraph:nth-child(2) {
-  margin-top: 26px;
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
+    margin-bottom: 25px;
   }
 }
 
@@ -26,8 +28,4 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .place__paragraph:nth-child(2) {
-    margin-top: 25px;
-  }
-}
+
