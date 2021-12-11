@@ -9,7 +9,6 @@
   box-sizing: border-box;
   padding: 0;
   list-style-type: none;
-  justify-items: stretch;
 }
 
 @media screen and (max-width: 1279px) {
